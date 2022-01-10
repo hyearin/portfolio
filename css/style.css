@@ -747,5 +747,5 @@ position: relative;
   footer>.contact_box>.icon_box>i:nth-child(6){
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -10px;
   }
