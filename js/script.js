@@ -1,5 +1,14 @@
 $(document).ready(function($) {
 
+    $(window).on('load', function(){
+        setInterval(function(){
+            $("#loading").fadeOut(350);
+            $(".main").addClass('active');
+        },5000);
+       
+    });
+
+
     $(".menu>ul>li>.scroll_move").click(function(event){         
 
             event.preventDefault();
@@ -23,9 +32,6 @@ setInterval(function () {
     slideIndex++;
 
 },5000);
-
-
-
 
 
 }); /*레디끝 */
