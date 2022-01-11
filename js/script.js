@@ -4,7 +4,7 @@ $(document).ready(function($) {
         setInterval(function(){
             $("#loading").fadeOut(350);
             $(".main").addClass('active');
-        },5000);
+        },3000);
        
     });
 
@@ -17,21 +17,35 @@ $(document).ready(function($) {
 
     });
 
-var slideIndex = 0;
+    
 
-setInterval(function () {
+    $(".section03 .nav h3").click(function(){
 
-    if(slideIndex > 2){
-        slideIndex = 0;
-    };
-    $(".slide_box_wrap>.slide_box").css({"top" : -800 * slideIndex });
-
-    console.log(slideIndex);
+        $(".section03 .nav h3,.section03 .nav .slide").removeClass("on");
+        $(this).addClass("on");
+        $(this).next(".slide").addClass("on");
 
 
-    slideIndex++;
+    });
 
-},5000);
+
+
+
+// var slideIndex = 0;
+
+// setInterval(function () {
+
+//     if(slideIndex > 2){
+//         slideIndex = 0;
+//     };
+//     $(".slide_box_wrap>.slide_box").css({"top" : -800 * slideIndex });
+
+//     console.log(slideIndex);
+
+
+//     slideIndex++;
+
+// },7000);
 
 
 }); /*레디끝 */
