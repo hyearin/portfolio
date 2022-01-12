@@ -875,8 +875,6 @@ footer>.last>a>p {
   transition: 0.5s;
 }
 
-footer>.last>a>p:hover {
-}
 footer>.last>p{
   text-shadow: 3px 5px 4px rgb(65, 65, 65);
   font-weight: normal;
