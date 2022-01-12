@@ -864,22 +864,18 @@ footer>.last>.line {
 
 footer>.last>a>p {
   color: #fff;
-  width: 100px;
-  height: 30px;
-  border: 2px solid #fff;
   text-align: center;
   line-height: 30px;
   font-size: 20px;
   font-weight: 555;
   position: absolute;
   top: 50%;
-  left: 48.5%;
+  left: 49.2%;
   text-shadow: 3px 5px 4px rgb(75, 75, 75);
   transition: 0.5s;
 }
 
 footer>.last>a>p:hover {
-  background-color: #d46f73;
 }
 footer>.last>p{
   text-shadow: 3px 5px 4px rgb(65, 65, 65);
@@ -887,6 +883,6 @@ footer>.last>p{
   text-align: center;
   color: #fff;
   position: absolute;
-  top: 60%;
-  left: 40%;
+  top: 59%;
+  left: 41%;
 }
